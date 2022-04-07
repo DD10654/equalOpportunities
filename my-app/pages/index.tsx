@@ -138,7 +138,7 @@ const Home: NextPage = () => {
         <SimpleGrid cols={2}>
           <div>
             <Title>Ban Ki-moon</Title>
-            <p className="ml-1 mt-5">Born June 13th 1944 is a South Korean politician and diplomat who had served eigth secretery general (2007-16) of the U.N (United Nations). At age 18 Ban had won a competition that took him to the White House to meet U.S President John F. Kennedy, a visit that Ban claimed most inspired his public career. He received a bachelor’s degree in 1970 on international relations from Seoul National University and earned a master’s degree in 1985 from the John F. Kennedy School of Government at Harvard University. He is one of the people that helped creating the SDG goals to make a better world.</p>
+            <p className="ml-1 mt-5">Born June 13th 1944 is a South Korean politician and diplomat who had served eigth secretery general (2007-16) of the U.N (United Nations). At age 18 Ban had won a competition that took him to the White House to meet U.S President John F. Kennedy, a visit that Ban claimed most inspired his public career. He received a bachelor&apos’s degree in 1970 on international relations from Seoul National University and earned a master&apos’s degree in 1985 from the John F. Kennedy School of Government at Harvard University. He is one of the people that helped creating the SDG goals to make a better world.</p>
           </div>
           <Image src="/image2.jpeg" width="300" height="370" alt="" />
         </SimpleGrid>
@@ -168,7 +168,7 @@ GDP is the market value of goods and services sold within a country.
 
 If an old house is resold, it&apos;'s not counted in the GDP since it was not originally sold that year.
 
-The part &apos;‘within a country&apos;’ confuses a lot of people, a simple definition is basically when USA imports something from france, it adds to France&apos;'s GDP, and if France imports something from USA, it adds to USA’s GDP
+The part &apos;‘within a country&apos;’ confuses a lot of people, a simple definition is basically when USA imports something from france, it adds to France&apos;'s GDP, and if France imports something from USA, it adds to USA&apos’s GDP
 </p>
           </div>
           <Image src="/image11.png" width="300" height="450" alt="" />
@@ -178,21 +178,21 @@ The part &apos;‘within a country&apos;’ confuses a lot of people, a simple d
         <SimpleGrid cols={1}>
           <div>
             <Title>Charities provide basic needs ONLY</Title>
-            <p className="ml-1 mt-5">In 1 charity, there was a mother whose name is disclosed with a daughter called ‘Jackie’. After a few years in charity, Jackie’s mom died and Jackie got a daughter. The people who ran the charity noticed similar stories with some other people.  After some testing they realised that if a kid grew up in charities, then they would live there till their death. That charity then started teaching kids how to work and the results went better than expectations! The kids would not need the charity by the time they were 16-17!</p>
+            <p className="ml-1 mt-5">In 1 charity, there was a mother whose name is disclosed with a daughter called &apos‘Jackie&apos’. After a few years in charity, Jackie&apos’s mom died and Jackie got a daughter. The people who ran the charity noticed similar stories with some other people.  After some testing they realised that if a kid grew up in charities, then they would live there till their death. That charity then started teaching kids how to work and the results went better than expectations! The kids would not need the charity by the time they were 16-17!</p>
           </div>
         </SimpleGrid>
         <br /><hr /><br />
         <SimpleGrid cols={1}>
           <div>
             <Title>A Dying Baby</Title>
-            <p className="ml-1 mt-5">Imagine this, you go to a store and buy 200$ shoes. Then while going back, you cross the lake and see a baby dying. No one else was around to save her, so it was up to you. It was pretty divided! 50/50! They creators changed it from 200$ or changed the gender of the baby. But the breaking change was when there were other people who clearly saw the baby dying but didn’t care. Everybody said NO! This is sad, if you can save a life at little cost to yourself. You should do it!</p>
+            <p className="ml-1 mt-5">Imagine this, you go to a store and buy 200$ shoes. Then while going back, you cross the lake and see a baby dying. No one else was around to save her, so it was up to you. It was pretty divided! 50/50! They creators changed it from 200$ or changed the gender of the baby. But the breaking change was when there were other people who clearly saw the baby dying but didn&apos’t care. Everybody said NO! This is sad, if you can save a life at little cost to yourself. You should do it!</p>
           </div>
         </SimpleGrid>
         <br /><hr /><br />
         <SimpleGrid cols={1}>
           <div>
             <Title>Lifeboat</Title>
-            <p className="ml-1 mt-5">People took the ‘little cost to yourself’ a bit too far. So just to make sure people don’t go wild, a 3rd party had another Theory! Imagine this, you are on a boat with 50 people, and you have food for 50. But the boat can fit 60 people and 40 people are drowning, what will you do? You cannot get all 40, otherwise it will sink! If you get 10 people, in the last few days you will starve, or might die! The best way is to do nothing. iIf you have at least 1 spare life saver or 1 slice of pizza left, you can help them, but their faith is mostly sealed!</p>
+            <p className="ml-1 mt-5">People took the &apos‘little cost to yourself&apos’ a bit too far. So just to make sure people don&apos’t go wild, a 3rd party had another Theory! Imagine this, you are on a boat with 50 people, and you have food for 50. But the boat can fit 60 people and 40 people are drowning, what will you do? You cannot get all 40, otherwise it will sink! If you get 10 people, in the last few days you will starve, or might die! The best way is to do nothing. iIf you have at least 1 spare life saver or 1 slice of pizza left, you can help them, but their faith is mostly sealed!</p>
           </div>
         </SimpleGrid>
       </Tabs.Tab>
