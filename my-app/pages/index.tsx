@@ -1,8 +1,8 @@
-import type { NextPage } from 'next'
-import { useState } from 'react';
-import Image from 'next/image'
-import { AppShell, Burger, Header,  MantineProvider, MediaQuery, Navbar, Paper, Text, useMantineTheme, ActionIcon, createStyles, Accordion, TypographyStylesProvider, Tabs, Center, SimpleGrid, Title, RingProgress } from '@mantine/core'
-import { Sun, MoonStars } from 'tabler-icons-react';
+import type { NextPage } from "next"
+import { useState } from "react";
+import Image from "next/image"
+import { AppShell, Burger, Header,  MantineProvider, MediaQuery, Navbar, Paper, Text, useMantineTheme, ActionIcon, createStyles, Accordion, TypographyStylesProvider, Tabs, Center, SimpleGrid, Title, RingProgress } from "@mantine/core"
+import { Sun, MoonStars } from "tabler-icons-react";
 
 
 const Home: NextPage = () => {
@@ -12,10 +12,10 @@ const Home: NextPage = () => {
   const [dark, setDark] = useState(false);
 
   return (
-    <MantineProvider theme={{ loader: "oval", colorScheme: dark ? 'light' : 'dark',  }}   styles={{
+    <MantineProvider theme={{ loader: "oval", colorScheme: dark ? "light" : "dark",  }}   styles={{
       Text: (theme) => ({
         root: {
-          color: theme.colorScheme === 'dark' ? 'white' : 'black',
+          color: theme.colorScheme === "dark" ? "white" : "black",
         },
       }),
     }}>
@@ -25,9 +25,9 @@ const Home: NextPage = () => {
       fixed
       header={
         <Header height={70} p="md" className="bg-gradient-to-r from-green-300 via-emerald-500 to-teal-900">
-          <div style={{ display: 'flex', alignItems: 'center', height: '100%' }}>
+          <div style={{ display: "flex", alignItems: "center", height: "100%" }}>
 
-            <Text className='text-gradient text-center font-bold text-[2.75rem] from-indigo-400 via-purple-500 to-indigo-600 mr-5'>Equal Opportunities</Text>
+            <Text className="text-gradient text-center font-bold text-[2.75rem] from-indigo-400 via-purple-500 to-indigo-600 mr-5">Equal Opportunities</Text>
 
           </div>
 
@@ -35,7 +35,7 @@ const Home: NextPage = () => {
       }
     >
       <Center className="mb-10">
-        <Image src="/image12.jpeg" width="1500" height="300" className='rounded-lg' alt="" />
+        <Image src="/image12.jpeg" width="1500" height="300" className="rounded-lg" alt="" />
       </Center>
       <Tabs>
       <Tabs.Tab label="Poverty Introduction">
@@ -66,7 +66,7 @@ const Home: NextPage = () => {
                 thickness={10}
                 roundCaps
                 sections={[
-                  { value: 9.2, color: 'cyan' }
+                  { value: 9.2, color: "cyan" }
                 ]}
                 label={          
                   <Text color="blue" weight={700} align="center" size="xl">
@@ -138,7 +138,7 @@ const Home: NextPage = () => {
         <SimpleGrid cols={2}>
           <div>
             <Title>Ban Ki-moon</Title>
-            <p className="ml-1 mt-5">Born June 13th 1944 is a South Korean politician and diplomat who had served eigth secretery general (2007-16) of the U.N (United Nations). At age 18 Ban had won a competition that took him to the White House to meet U.S President John F. Kennedy, a visit that Ban claimed most inspired his public career. He received a bachelor&apos’s degree in 1970 on international relations from Seoul National University and earned a master&apos’s degree in 1985 from the John F. Kennedy School of Government at Harvard University. He is one of the people that helped creating the SDG goals to make a better world.</p>
+            <p className="ml-1 mt-5">Born June 13th 1944 is a South Korean politician and diplomat who had served eigth secretery general (2007-16) of the U.N (United Nations). At age 18 Ban had won a competition that took him to the White House to meet U.S President John F. Kennedy, a visit that Ban claimed most inspired his public career. He received a bachelor&apos;s degree in 1970 on international relations from Seoul National University and earned a master&apos;s degree in 1985 from the John F. Kennedy School of Government at Harvard University. He is one of the people that helped creating the SDG goals to make a better world.</p>
           </div>
           <Image src="/image2.jpeg" width="300" height="370" alt="" />
         </SimpleGrid>
@@ -158,17 +158,17 @@ How to find the GDP, add investments, government spending, customer spending & m
 
 GDP is all about FINISHED goods and services, meaning if you made a cake out of butter and eggs, the cake will be added to the GDP, not the egg & butter
 
-But if the egg is sold to a customer, it is counted in the GDP, since it will not resold, it&apos;'s not counted in the GDP
+But if the egg is sold to a customer, it is counted in the GDP, since it will not resold, it&apos;s not counted in the GDP
 
 There are goods that are used to make other goods and are still considered finished goods, these are called Capital Goods
 
-Even though Tractors are used to get crops, it won&apos;’t be resold, so it&apos;’s a Capital Good
+Even though Tractors are used to get crops, it won&apos;t be resold, so it&apos;s a Capital Good
 
 GDP is the market value of goods and services sold within a country.
 
-If an old house is resold, it&apos;'s not counted in the GDP since it was not originally sold that year.
+If an old house is resold, it&apos;s not counted in the GDP since it was not originally sold that year.
 
-The part &apos;‘within a country&apos;’ confuses a lot of people, a simple definition is basically when USA imports something from france, it adds to France&apos;'s GDP, and if France imports something from USA, it adds to USA&apos’s GDP
+The part &apos;‘within a country&apos; confuses a lot of people, a simple definition is basically when USA imports something from france, it adds to France&apos;s GDP, and if France imports something from USA, it adds to USA&apos;s GDP
 </p>
           </div>
           <Image src="/image11.png" width="300" height="450" alt="" />
@@ -178,21 +178,21 @@ The part &apos;‘within a country&apos;’ confuses a lot of people, a simple d
         <SimpleGrid cols={1}>
           <div>
             <Title>Charities provide basic needs ONLY</Title>
-            <p className="ml-1 mt-5">In 1 charity, there was a mother whose name is disclosed with a daughter called &apos‘Jackie&apos’. After a few years in charity, Jackie&apos’s mom died and Jackie got a daughter. The people who ran the charity noticed similar stories with some other people.  After some testing they realised that if a kid grew up in charities, then they would live there till their death. That charity then started teaching kids how to work and the results went better than expectations! The kids would not need the charity by the time they were 16-17!</p>
+            <p className="ml-1 mt-5">In 1 charity, there was a mother whose name is disclosed with a daughter called &apos;Jackie&apos;. After a few years in charity, Jackie&apos;s mom died and Jackie got a daughter. The people who ran the charity noticed similar stories with some other people.  After some testing they realised that if a kid grew up in charities, then they would live there till their death. That charity then started teaching kids how to work and the results went better than expectations! The kids would not need the charity by the time they were 16-17!</p>
           </div>
         </SimpleGrid>
         <br /><hr /><br />
         <SimpleGrid cols={1}>
           <div>
             <Title>A Dying Baby</Title>
-            <p className="ml-1 mt-5">Imagine this, you go to a store and buy 200$ shoes. Then while going back, you cross the lake and see a baby dying. No one else was around to save her, so it was up to you. It was pretty divided! 50/50! They creators changed it from 200$ or changed the gender of the baby. But the breaking change was when there were other people who clearly saw the baby dying but didn&apos’t care. Everybody said NO! This is sad, if you can save a life at little cost to yourself. You should do it!</p>
+            <p className="ml-1 mt-5">Imagine this, you go to a store and buy 200$ shoes. Then while going back, you cross the lake and see a baby dying. No one else was around to save her, so it was up to you. It was pretty divided! 50/50! They creators changed it from 200$ or changed the gender of the baby. But the breaking change was when there were other people who clearly saw the baby dying but didn&apos;t care. Everybody said NO! This is sad, if you can save a life at little cost to yourself. You should do it!</p>
           </div>
         </SimpleGrid>
         <br /><hr /><br />
         <SimpleGrid cols={1}>
           <div>
             <Title>Lifeboat</Title>
-            <p className="ml-1 mt-5">People took the &apos‘little cost to yourself&apos’ a bit too far. So just to make sure people don&apos’t go wild, a 3rd party had another Theory! Imagine this, you are on a boat with 50 people, and you have food for 50. But the boat can fit 60 people and 40 people are drowning, what will you do? You cannot get all 40, otherwise it will sink! If you get 10 people, in the last few days you will starve, or might die! The best way is to do nothing. iIf you have at least 1 spare life saver or 1 slice of pizza left, you can help them, but their faith is mostly sealed!</p>
+            <p className="ml-1 mt-5">People took the &apos;little cost to yourself&apos; a bit too far. So just to make sure people don&apos;t go wild, a 3rd party had another Theory! Imagine this, you are on a boat with 50 people, and you have food for 50. But the boat can fit 60 people and 40 people are drowning, what will you do? You cannot get all 40, otherwise it will sink! If you get 10 people, in the last few days you will starve, or might die! The best way is to do nothing. iIf you have at least 1 spare life saver or 1 slice of pizza left, you can help them, but their faith is mostly sealed!</p>
           </div>
         </SimpleGrid>
       </Tabs.Tab>
@@ -207,7 +207,7 @@ The part &apos;‘within a country&apos;’ confuses a lot of people, a simple d
         <SimpleGrid cols={1}>
           <div>
             <Title>Give out a job</Title>
-            <p className="ml-1 mt-5">Most companies don&apos;’t hire until it&apos;'s a big emergency. If we give out for jobs often, the company will be safer and the ones in poverty have a chance! Or if you find someone with talent who is being overshadowed with Poverty, help them. Maybe post a video of them on Social Media! It will help them</p>
+            <p className="ml-1 mt-5">Most companies don&apos;t hire until it&apos;s a big emergency. If we give out for jobs often, the company will be safer and the ones in poverty have a chance! Or if you find someone with talent who is being overshadowed with Poverty, help them. Maybe post a video of them on Social Media! It will help them</p>
           </div>
         </SimpleGrid>
       </Tabs.Tab>
