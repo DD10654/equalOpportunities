@@ -158,17 +158,17 @@ How to find the GDP, add investments, government spending, customer spending & m
 
 GDP is all about FINISHED goods and services, meaning if you made a cake out of butter and eggs, the cake will be added to the GDP, not the egg & butter
 
-But if the egg is sold to a customer, it is counted in the GDP, since it will not resold, it's not counted in the GDP
+But if the egg is sold to a customer, it is counted in the GDP, since it will not resold, it&apos;'s not counted in the GDP
 
 There are goods that are used to make other goods and are still considered finished goods, these are called Capital Goods
 
-Even though Tractors are used to get crops, it won’t be resold, so it’s a Capital Good
+Even though Tractors are used to get crops, it won&apos;’t be resold, so it&apos;’s a Capital Good
 
 GDP is the market value of goods and services sold within a country.
 
-If an old house is resold, it's not counted in the GDP since it was not originally sold that year.
+If an old house is resold, it&apos;'s not counted in the GDP since it was not originally sold that year.
 
-The part ‘within a country’ confuses a lot of people, a simple definition is basically when USA imports something from france, it adds to France's GDP, and if France imports something from USA, it adds to USA’s GDP
+The part &apos;‘within a country&apos;’ confuses a lot of people, a simple definition is basically when USA imports something from france, it adds to France&apos;'s GDP, and if France imports something from USA, it adds to USA’s GDP
 </p>
           </div>
           <Image src="/image11.png" width="300" height="450" alt="" />
@@ -207,7 +207,7 @@ The part ‘within a country’ confuses a lot of people, a simple definition is
         <SimpleGrid cols={1}>
           <div>
             <Title>Give out a job</Title>
-            <p className="ml-1 mt-5">Most companies don’t hire until it's a big emergency. If we give out for jobs often, the company will be safer and the ones in poverty have a chance! Or if you find someone with talent who is being overshadowed with Poverty, help them. Maybe post a video of them on Social Media! It will help them</p>
+            <p className="ml-1 mt-5">Most companies don&apos;’t hire until it&apos;'s a big emergency. If we give out for jobs often, the company will be safer and the ones in poverty have a chance! Or if you find someone with talent who is being overshadowed with Poverty, help them. Maybe post a video of them on Social Media! It will help them</p>
           </div>
         </SimpleGrid>
       </Tabs.Tab>
